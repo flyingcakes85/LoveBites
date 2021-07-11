@@ -1,0 +1,18 @@
+.thunar .sidebar .view {
+background: url("/home/YOURUSERNAME/.config/gtk-3.0/.assets/love.png");
+
+background-size:120px;
+background-repeat : no-repeat;
+background-position: 50% calc(100%-40px);
+
+}
+
+scrolledwindow widget {
+background : url("/home/YOURUSERNAME/.config/gtk-3.0/.assets/border.png");
+background-size : 122px;
+background-repeat : no-repeat;
+background-position: calc(100%- 14px) calc(100%-14px);
+}
+
+.thunar .standard-view .view * { background-image: none; }
+.thunar .standard-view .view * { background: transparent; color: black; }
