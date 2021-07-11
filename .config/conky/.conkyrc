@@ -1,0 +1,61 @@
+﻿-- vim: ts=4 sw=4 noet ai cindent syntax=lua
+conky.config = {
+	alignment = 'middle_right',
+	background = false,
+	cpu_avg_samples = 2,
+	default_color = 'ff5a6f', -- dark AFB8C6 light 5C616C
+	default_shade_color = 'ff5a6f',
+	default_bar_height = 6,
+	default_bar_width = 176,
+	default_graph_height = 30,
+	default_graph_width = 162,
+	draw_borders = false,
+	draw_graph_borders = false,
+	draw_outline = false, 
+	draw_shades = false,
+	use_xft = true,
+	font = 'Iosevka Term:Light:size=16',
+	gap_x = 30,
+	gap_y = 0,
+	minimum_height = 528,
+	minimum_width = 258, 
+	maximum_width = 272,
+	double_buffer = true,
+	out_to_console = false,
+	out_to_stderr = false,
+	own_window = true,
+	own_window_transparent = true,
+own_window_colour = 'ff5a6f', -- dark 2F343F light F5F6F7
+--own_window_argb_visual = true,
+own_window_argb_value = 0,
+	own_window_class = 'Conky',
+	own_window_type = 'desktop',
+	own_window_hints = 'undecorated,skip_taskbar,skip_pager,below',
+	update_interval = 1,
+
+	
+  -- Uppercase test
+  --uppercase = true, --remove comment if you want all caps
+	
+  -- Colors
+  color1 = 'FF5A6F',
+  color2 = 'FF5A6F',
+
+	-- Fonts
+  template1 = [[${font Iosevka Term:Light:size=12}]],
+  template2 = [[${font Iosevka Term::size=12}]],
+  template3 = [[${font Iosevka Term::size=17}]],
+  template4 = [[${font Iosevka Term:Light:size=25}]],
+  template5 = [[${font Iosevka Term:Light:size=17}]],
+	}
+
+conky.text = [[
+${image .assets/background.png -p -1, -1}
+${offset 82}${voffset -12}${cpugraph cpu0 30,150 FF5A6F FF5A6F 0.5}
+${offset 77}${voffset -11}${template2}${freq}${template1} MHz${alignr 48}${voffset -1}${template3}${cpu}%
+${offset 49}${voffset 23}${color2}${membar}${color1}${offset -176}${execibar 3599 echo 0}${color}
+${offset 35}${voffset 9}${template2}${mem} /${template1} ${memmax} ${voffset -15}${template3} ${memperc}%
+${offset 45}${voffset 35}${template4}${acpitemp}°C${alignr 38}${platform coretemp.0/hwmon/hwmon4 temp 1}°C
+${voffset 0}${if_existing /proc/net/route wlan0}${image .assets/connected.png -p 55,280}${alignr 56}${template2}DL  ${template5}${voffset -6}${downspeed wlan0}/s${else}${image .assets/disconnected.png -p 50,297}${alignr 56}${template5}disconnected${endif}
+${voffset 29}${alignr 56}${uptime_short}
+]]
