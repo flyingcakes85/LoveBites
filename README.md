@@ -12,7 +12,7 @@ _I am single because I want to date an anime girl..._
 
 **I am not responsible for dysfunctional systems and/or dead neighbors.**
 
-If there are any errors, please let me know. I don't trust myself to get it right in one go...
+If there are any errors or something is missing, please let me know. I don't trust myself to get it right in one go...
 
 ### Clone the repo 💸
 
