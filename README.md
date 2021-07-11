@@ -23,7 +23,7 @@ cd LoveBites
 
 Further commands will be run assuming your working directory is this git repo.
 
-### Theme 💄
+### Gtk/Xfwm Theme 💄
 
 ```sh
 cd .themes
@@ -32,7 +32,9 @@ mkdir -p ~/.themes
 cp LoveBites ~/.themes/ -r
 ```
 
-Change theme using Xfce's appearance settings from app launcher, or run `xfce4-appearance-settings` in a terminal.
+Change theme to LoveBites using Xfce's appearance settings from app launcher, or run `xfce4-appearance-settings` in a terminal.
+
+Open Xfwm Setting to change Xfwm theme to LoveBites.
 
 ## Thunar (Gtk CSS) 💞
 
@@ -55,7 +57,7 @@ mkdir -p ~/.icons
 cp PapirusRed ~/.icons/ -r
 ```
 
-Change theme using Xfce's appearance settings from app launcher, or run `xfce4-appearance-settings` in a terminal.
+Change icon theme to PapirusRed using Xfce's appearance settings from app launcher, or run `xfce4-appearance-settings` in a terminal.
 
 ### Compositor 👠
 
