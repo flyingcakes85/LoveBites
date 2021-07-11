@@ -77,6 +77,7 @@ Add picom to Xfce session autostart. Run `xfce4-session-settings` in a terminal.
 ```sh
 mkdir -p ~/.config/tint2
 cp .config/tint2/* ~/.config/tint2/ -r
+sed -i "s/lain/$USER/g" ~/.config/tint2/tint2rc
 ```
 
 Add tint2 to Xfce session autostart. Run `xfce4-session-settings` in a terminal. In second tab "Application Autostart", click plus icon at bottom and add new entry. Set command as `tint2 &` and "Trigger" to "on login".
