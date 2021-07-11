@@ -45,7 +45,7 @@ mkdir -p ~/.config/gtk-3.0
 touch ~/.config/gtk-3.0/gtk.css
 cat .config/gtk-3.0/gtk.css >> ~/.config/gtk-3.0/gtk.css
 sed -i "s/YOURUSERNAME/$USER/g" ~/.config/gtk-3.0/gtk.css
-cp .config/gtk-3.0/.assets ~/.config/gtk-3.0/
+cp .config/gtk-3.0/.assets ~/.config/gtk-3.0/ -r
 ```
 
 ### Icons 💍
@@ -65,7 +65,7 @@ I am using picom instead of the default Xfce compositor.
 
 ```sh
 mkdir -p ~/.config/picom
-cp ~/.config/picom/picom.conf
+cp .config/picom/picom.conf ~/.config/picom/picom.conf
 ```
 
 Open Window Manager Tweaks. In the last tab "Compositor", uncheck "Enable display compositing.
@@ -86,7 +86,7 @@ You can modify tint2 panel. Run `tint2conf` in a terminal and double click on th
 ### Conky 👛
 
 ```sh
-cp .config/conky ~/.config/
+cp .config/conky ~/.config/ -r
 ```
 
 Most probably you will need to play around with the offset values in `.conkyrc` to make it display properly.
