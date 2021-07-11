@@ -36,7 +36,7 @@ Change theme to LoveBites using Xfce's appearance settings from app launcher, or
 
 Open Xfwm Setting to change Xfwm theme to LoveBites.
 
-## Thunar (Gtk CSS) 💞
+### Thunar (Gtk CSS) 💞
 
 For design at bottom right, and the typography on sidebar
 
