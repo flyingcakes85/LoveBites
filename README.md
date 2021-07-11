@@ -94,6 +94,9 @@ Most probably you will need to play around with the offset values in `.conkyrc` 
 
 Add tint2 to Xfce session autostart. Run `xfce4-session-settings` in a terminal. In second tab "Application Autostart", click plus icon at bottom and add new entry. Set command as `conky &` and "Trigger" to "on login".
 
+### Font
+
+I have used Iosevka. Specifically speaking, its the [Nerd Font Patched](https://aur.archlinux.org/packages/nerd-fonts-iosevka/) variant.
 
 ## Credits 🙏
 
