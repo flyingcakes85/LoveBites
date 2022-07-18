@@ -1,6 +1,6 @@
 # Love Bites 💋
 
-_I am single because I want to date an anime girl..._
+_I AM NO LONGER SINGLE BTW; MY LADYFRIEND USES ARCH BTW..._
 
 ## Screenshot 🤳
 
