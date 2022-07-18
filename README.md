@@ -107,7 +107,7 @@ I have used Iosevka. Specifically speaking, its the [Nerd Font Patched](https://
 ## Contact 💌
 
 - email : com dot protonmail at snehitsah
-- reddit : [u/StunningConcentrate7](http://reddit.com/u/StunningConcentrate7) _PM me anime girl pics_
+- reddit : [u/StunningConcentrate7](http://reddit.com/u/StunningConcentrate7)
 
 ## License ⚔️
 
