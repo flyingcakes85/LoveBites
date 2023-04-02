@@ -1,7 +1,5 @@
 # Love Bites 💋
 
-_I AM NO LONGER SINGLE BTW; MY LADYFRIEND USES ARCH BTW..._
-
 ## Screenshot 🤳
 
 ![Screenshot](screenshot.png)
