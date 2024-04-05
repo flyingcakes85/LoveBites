@@ -7,7 +7,7 @@ background-position: 50% calc(100%-40px);
 
 }
 
-scrolledwindow widget {
+.thunar scrolledwindow widget {
 background : url("/home/YOURUSERNAME/.config/gtk-3.0/.assets/border.png");
 background-size : 122px;
 background-repeat : no-repeat;
