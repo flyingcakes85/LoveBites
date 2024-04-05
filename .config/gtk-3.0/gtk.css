@@ -15,4 +15,4 @@ background-position: calc(100%- 14px) calc(100%-14px);
 }
 
 .thunar .standard-view .view * { background-image: none; }
-.thunar .standard-view .view * { background: transparent; color: black; }
+.thunar .standard-view .view:selected { background: rgba(255, 90, 111, 0.24); color: black; }
